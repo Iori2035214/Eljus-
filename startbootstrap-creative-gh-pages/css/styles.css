@@ -7718,7 +7718,27 @@ textarea.form-control-lg {
 /* rtl:end:remove */
 .text-primary {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+  color: aqua !important;
+}
+
+.text-gengo {
+  --bs-text-opacity: 1;
+  color: yellow !important;
+}
+
+.text-monndai {
+  --bs-text-opacity: 1;
+  color: #0cd115 !important;
+}
+
+.text-question {
+  --bs-text-opacity: 1;
+  color: aqua !important;
+}
+
+.text-iine {
+  --bs-text-opacity: 1;
+  color: pink !important;
 }
 
 .text-secondary {
@@ -11440,7 +11460,7 @@ header.masthead h1, header.masthead .h1 {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background: rgba(244, 98, 58, 0.9);
+  background: #0cd115dd;
   transition: opacity 0.25s ease;
   text-align: center;
 }
